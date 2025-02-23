@@ -46,6 +46,31 @@
   <img src="./_docs/assets/carbon.png" />
 </p>
 
+## Run Project
+
+1. Clone repository:
+    ```sh
+    git clone https://github.com/felipeAguiarCode/MegaApiDotnetCore.git
+    ```
+2. Browser to project directory:
+    ```sh
+    cd MegaApiDotnetCore
+    ```
+3. Restore dependencies:
+    ```sh
+    dotnet restore
+    ```
+4. Configure database in `appsettings.json` file.
+
+5. Run migrations:
+    ```sh
+    dotnet ef database update
+    ```
+6. Run Application:
+    ```sh
+    dotnet run
+    ```
+
 ## API Endpoints
 
 <table align="center">
@@ -145,6 +170,3 @@ src
 ```
 
 ## License This software is licensed under the terms of the [MIT]
-
-⌨️ FelipeAguiar -
-[Github](https://github.com/felipeAguiarCode)
